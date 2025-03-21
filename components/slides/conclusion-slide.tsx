@@ -19,7 +19,7 @@ const ConclusionSlide: React.FC = () => {
       setShowAnimation(true)
     }, 50) // Pequeno atraso para garantir que a slide esteja completamente carregada
 
-     setTimeout(() => {
+    setTimeout(() => {
       setShowContent(true)
     }, 1800)
 
